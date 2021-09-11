@@ -1,0 +1,24 @@
+.square {
+    border: solid 1px black;
+    height: 64px;
+    width: 64px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    // align-items: center;
+    // justify-content: center;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.disc {
+    width: 56px;
+    height: 56px;
+}
+
+.board-edge {
+    background-color: green;
+    width: 560px;
+}

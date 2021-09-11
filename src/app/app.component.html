@@ -1,0 +1,13 @@
+<div class="title">AngularでOthello</div>
+<div class="title">{{message}}</div>
+<div class="board-edge">
+    <table class="board">
+        <tr *ngFor="let row of vurtialBoard; let i = index">
+            <td *ngFor="let square of row; let j = index" class="square" (click)="onClick(j, i)">
+                <span *ngIf="square == 1"><img class="disc" src="../assets/black.png" alt=""></span>
+                <span *ngIf="square == 2"><img class="disc" src="../assets/white.png" alt=""></span>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="title">{{countMessage}}</div>
